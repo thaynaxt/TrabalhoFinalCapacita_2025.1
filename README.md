@@ -1,13 +1,3 @@
-# 🚀 Projeto Final C-Jovem
-
-Este repositório é destinado para o projeto final do módulo básico de **Desenvolvimento Full** Stack do programa **Capacita Brasil / C-Jovem**, ofertado pela **Universidade Estadual do Ceará (UECE)** em parceria com o **Instituto Atlântico**, **Softex** e demais instituições.
-
-## 📚 Sobre o Programa
-
-O **Capacita Brasil / C-Jovem** tem como objetivo **capacitar jovens através da inclusão digital e profissional**, preparando-os para os desafios do mercado de trabalho atual.
-
-Ao final da formação, os alunos terão oportunidades de aplicar seus conhecimentos em experiências reais no mercado.
-
 # 🚀 Portfólio Virtual - Projeto Final C-Jovem
 
 Este repositório contém o projeto final desenvolvido pelos alunos da **Equipe 1** no módulo básico de **Desenvolvimento Full Stack** do programa **Capacita Brasil / C-Jovem**, ofertado pela **Universidade Estadual do Ceará (UECE)** em parceria com o **Instituto Atlântico**, **Softex** e demais instituições.
