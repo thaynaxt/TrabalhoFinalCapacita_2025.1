@@ -79,6 +79,7 @@ body{
 
 .hobbies div{
     transition: transform .5s ease;
+    cursor: pointer;
 }
 
 .hobbies div:hover{
