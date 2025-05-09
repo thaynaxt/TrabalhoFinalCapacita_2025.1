@@ -44,9 +44,6 @@ O projeto inclui espaços para **interação com visitantes**, como:
 - Depoimentos de clientes (simulados).
 - Campo para novos comentários na página de aprendizado.
 
----
-
-Perfeito! Aqui está a seção atualizada com os comandos Git incluindo a criação de uma **nova branch**, realização de alterações e criação de um **Pull Request**:
 
 ---
 
