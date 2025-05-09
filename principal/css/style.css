@@ -143,3 +143,23 @@ pre.codigo-exemplo {
   overflow-x: auto;
   text-align: left;
 }
+
+.aprendizado-tecnologias .lista-aprendizado,
+.aprendizado-dicas .lista-dicas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.lista-aprendizado li,
+.lista-dicas li {
+  transition: transform .2s ease, all .2s ease;
+  padding: 8px;
+  border-radius: 8px;
+}
+.lista-aprendizado li:hover,
+.lista-dicas li:hover {
+  transform: translateX(5px);
+  background: rgba(255,255,255,0.1);
+}
+
