@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #2E0D42;
+    --cor2: #5a1378;
+    --cor3: #89276d;
+    --cor4: #eb5c5d;
+    --shadow: 2px 2px 10px rgba(0, 0, 0, 0.457);
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.depoimentos-container{
+    background-color: var(--cor1);
+}
+
+.depoimentos-container, .hobbies-container{
+    color: #FFF;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.depoimentos-container h2, .hobbies-container h2{
+    margin-bottom: 30px;
+}
+
+.depoimentos{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+}
+
+.depoimentos div{
+    background-color: var(--cor2);
+    width: 300px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.depoimentos div:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(0deg, var(--cor3), var(--cor2));
+}
+
+.depoimentos img{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.457);
+    margin-bottom: 10px;
+}
+
+.depoimentos span{
+    display: block;
+    font-weight: 800;
+}
+
+.hobbies-container{
+    background-image: linear-gradient(180deg, var(--cor1), var(--cor3));
+}
+
+.hobbies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.hobbies div{
+    transition: transform .5s ease;
+}
+
+.hobbies div:hover{
+    transform: scale(1.1);
+    font-weight: 800;
+}
+
+.hobbies span{
+    display: block;
+}
+
+.hobbies img{
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    margin-bottom: 5px;
+}
