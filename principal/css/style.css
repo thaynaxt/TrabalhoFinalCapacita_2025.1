@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #2c0c3f, #5d147b, #a33265);
+  color: whitesmoke;
+}
+
+header {
+  background: linear-gradient(135deg, #2C0C3F, #5D147B);
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
