@@ -40,13 +40,13 @@ body{
 }
 
 .depoimentos div{
-    background-color: var(--cor2);
+   background-color: var(--cor2);
     width: 300px;
     padding: 20px 15px;
     border-radius: 20px;
     box-shadow: var(--shadow);
     transition: all .5s ease;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .depoimentos div:hover{
@@ -208,3 +208,51 @@ pre.codigo-exemplo {
   background: rgba(255,255,255,0.1);
 }
 
+#whatsapp-container {
+  background-color: #2E0D42;
+  color: #FFF;
+  padding: 25px 20px;
+  text-align: center;
+}
+#whatsapp-link {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px; 
+  width: 120px;  
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#whatsapp-link a img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  display: block;
+}
+
+#whatsapp-link a:hover img {
+  transform: scale(1.1); 
+  filter: brightness(1.2);
+}
+
+.texto-gradiente{
+  background: linear-gradient(90deg, #25D366, #128C7E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  font-weight: bold; 
+  transition: transform 0.3s ease, filter 0.3s ease;
+  display: inline-block;}
+
+.texto-gradiente:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+  }
+
+.link-limpo {
+  text-decoration: none;    
+  color: inherit;          
+}
+.link-limpo:hover {
+  filter: brightness(1.2);  
+}
