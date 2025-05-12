@@ -45,13 +45,13 @@ body{
 }
 
 .depoimentos div{
-    background-color: var(--cor2);
+   background-color: var(--cor2);
     width: 300px;
     padding: 20px 15px;
     border-radius: 20px;
     box-shadow: var(--shadow);
     transition: all .5s ease;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .depoimentos div:hover{
@@ -260,10 +260,12 @@ pre.codigo-exemplo {
   color: inherit;          
 }
 .link-limpo:hover {
+  filter: brightness(1.2);  
   filter: brightness(1.2); 
-    
+}
 .rodape{
   background-color: var(--cor4);
   text-align: center;
   padding: 5px;
+
 }
