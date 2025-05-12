@@ -17,6 +17,11 @@ body{
     font-family: 'Poppins';
 }
 
+.encaixotado{
+  max-width: 1200px;
+  margin: auto;
+}
+
 .depoimentos-container{
     background-color: var(--cor1);
 }
