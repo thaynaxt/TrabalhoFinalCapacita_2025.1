@@ -213,3 +213,8 @@ pre.codigo-exemplo {
   background: rgba(255,255,255,0.1);
 }
 
+.rodape{
+  background-color: var(--cor4);
+  text-align: center;
+  padding: 5px;
+}
