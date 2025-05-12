@@ -123,6 +123,14 @@ Depois de enviar a branch:
             <sub><b>Melissa Lee</b></sub>
           </a>
       </td>
+      <td align="center">
+          <a href="https://github.com/DaniCrisCastro">
+            <img src="https://avatars.githubusercontent.com/u/145491691?v=4" alt="Danielle Castro"
+             width="100px" />
+            <br />
+            <sub><b>Danielle Castro</b></sub>
+          </a>
+      </td>
     </tr>
   </table>
 </div>
