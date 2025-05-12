@@ -17,6 +17,11 @@ body{
     font-family: 'Poppins';
 }
 
+.encaixotado{
+  max-width: 1200px;
+  margin: auto;
+}
+
 .depoimentos-container{
     background-color: var(--cor1);
 }
@@ -214,6 +219,7 @@ pre.codigo-exemplo {
   padding: 25px 20px;
   text-align: center;
 }
+
 #whatsapp-link {
   padding: 10px;
   display: flex;
@@ -255,4 +261,11 @@ pre.codigo-exemplo {
 }
 .link-limpo:hover {
   filter: brightness(1.2);  
+  filter: brightness(1.2); 
+}
+.rodape{
+  background-color: var(--cor4);
+  text-align: center;
+  padding: 5px;
+
 }
