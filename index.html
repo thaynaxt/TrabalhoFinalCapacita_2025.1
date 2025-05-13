@@ -61,26 +61,29 @@
       </div>
     </div>
 
-    <div class="comments-container">
-      <h3>Deixe um comentário</h3>
+<div class="comments-container">
+  <h3>Deixe um comentário</h3>
 
-      <form action="">
-        <div>
-          <label for="user-picture">Escolha sua foto:</label>
-          <input type="file" name="user-picture" id="user-picture">
-        </div>
-        <div>
-          <label for="name-comments"><span>*</span>Nome:</label>
-          <input type="text" id="name-comments" name="name-comments" required>
-        </div>
-        <div>
-          <label for="comment"><span>*</span>Escreva seu comentário:</label>
-          <textarea name="comment" id="comment" cols="30" rows="10" required></textarea>
-        </div>
-        <button type="submit">Enviar comentário</button>
-      </form>
+  <form class="form-comentario" action="">
+    <div class="campo-form">
+      <label for="user-picture">Escolha sua foto:</label>
+      <input type="file" name="user-picture" id="user-picture">
     </div>
-  </section>
+
+    <div class="campo-form">
+      <label for="name-comments"><span>*</span> Nome:</label>
+      <input type="text" id="name-comments" name="name-comments" required>
+    </div>
+
+    <div class="campo-form">
+      <label for="comment"><span>*</span> Escreva seu comentário:</label>
+      <textarea name="comment" id="comment" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="btn-enviar">Enviar comentário</button>
+  </form>
+</div>
+
 
   <section class="hobbies-container">
     <h2>O que eu faço quando não estou trabalhando?</h2>
@@ -189,11 +192,42 @@
           --security-groups MeuGrupo
       </code></pre>
     </section>
+<!-- Seção anterior termina aqui -->
+</section>
+
+<div class="fundo-cor4">
+  <section id="progresso">
+    <label class="habilidade">
+      HTML5
+      <div class="barra-progresso">
+        <div class="progresso" style="width:20%">20%</div>
+      </div>
+    </label>
+
+    <label class="habilidade">
+      Git
+      <div class="barra-progresso">
+        <div class="progresso" style="width:33%">33%</div>
+      </div>
+    </label>
+
+    <label class="habilidade">
+      CSS3
+      <div class="barra-progresso">
+        <div class="progresso" style="width:100%">100%</div>
+      </div>
+    </label>
+
+    <label class="habilidade">
+      Figma
+      <div class="barra-progresso">
+        <div class="progresso" style="width:90%">90%</div>
+      </div>
+    </label>
   </section>
+</div>
 
- 
-
-  <footer class="rodape">
+<footer class="rodape">
     <p>&copy; 2025 Colaborador</p>
   </footer>
 </body>
