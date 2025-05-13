@@ -131,6 +131,15 @@ Depois de enviar a branch:
             <sub><b>Danielle Castro</b></sub>
           </a>
       </td>
+      </td>
+      <td align="center">
+          <a href="https://github.com/thaynaxt">
+            <img src="https://avatars.githubusercontent.com/u/125219765?v=4" alt="Thayná Albano"
+             width="100px" />
+            <br />
+            <sub><b>Thayná Albano</b></sub>
+          </a>
+      </td>
     </tr>
   </table>
 </div>
