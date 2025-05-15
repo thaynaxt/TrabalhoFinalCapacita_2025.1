@@ -7,18 +7,22 @@
   <meta name="description" content="Portfólio profissional.">
   <meta name="author" content="Alunos">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="assets/resume.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <script src="js/menu.js"></script>
   <title>Portfólio </title>
 </head>
 
 <body>
-  <header>
+  <header class="menu-fixo">
     <h1>Portfólio | Nome </h1>
     <nav class="container-header" aria-label="Menu principal">
-      <a href="#sobre" class="botao-contato">Sobre</a>
-      <a href="#aprendizado" class="botao-contato">Dicas e Estudos</a>
-      <a href="#comentarios" class="botao-contato">Comentarios</a>
-      <a href="form.html" class="botao-contato">Fale comigo</a>
+      <a href="#introducao" class="botao-contato">Introdução</a>
+      <a href="#historico" class="botao-contato">Histórico</a>
+      <a href="#interesses" class="botao-contato">Interesses</a>
+      <a href="#progresso" class="botao-contato">Habilidades</a>
+      <a href="#comentarios" class="botao-contato">Depoimentos</a>
+      <a href="#aprendizado" class="botao-contato">Aprendizado</a>
+      <a href="form.html" class="botao-contato">Contato</a>
     </nav>
   </header>
 
@@ -43,7 +47,7 @@
         </div>
       </div>
     </section>
-    <div id="sobre" class="conteudo-dividido">
+    <div class="conteudo-dividido">
       <section id="introducao" class="card">
         <h2>Sobre mim</h2>
         <p>Olá me chamo Thayná, tenho 18 anos e sou estudante da área de tecnologia. <br> Finalizei meu ensino médio
@@ -67,15 +71,7 @@
         </ul>
       </section>
     </div>
-    <section id="whatsapp-container">
-      <a href="http://wa.me/558591111262" target="_blank" class="link-limpo">
-        <h2> Entre em contato pelo <span class="texto-gradiente">WhatsApp</span></h2>
-      </a>
-      <div id="whatsapp-link">
-        <a href="http://wa.me/558591111262" target="_blank">
-          <img src="assets/whatsap.png" alt="icone_do_WhatsApp" height="100" width="100"> </a>
-      </div>
-    </section>
+    
     <section id="comentarios" class="depoimentos-container">
       <h2>O que os clientes estão falando?</h2>
       <div class="depoimentos encaixotado">
@@ -108,7 +104,7 @@
         <h3>Deixe um comentário</h3>
         <form class="form-comentario" action="/comentario" method="POST">
           <div class="campo-form">
-            <label for="user-picture">Escolha sua foto:</label>
+            <label id="foto" for="user-picture">Escolha sua foto:</label>
             <input type="file" name="user-picture" id="user-picture">
           </div>
           <div class="campo-form">
@@ -122,6 +118,15 @@
           <button type="submit" class="btn-enviar">Enviar comentário</button>
         </form>
       </div>
+    <section id="whatsapp-container">
+      <a href="http://wa.me/558591111262" target="_blank" class="link-limpo">
+        <h2> Se preferir entre em contato pelo <span class="texto-gradiente">WhatsApp</span></h2>
+      </a>
+      <div id="whatsapp-link">
+        <a href="http://wa.me/558591111262" target="_blank">
+          <img src="assets/whatsap.png" alt="icone_do_WhatsApp" height="100" width="100"> </a>
+      </div>
+    </section>
     </section>
     <section class="hobbies-container">
       <h2>O que eu faço quando não estou trabalhando?</h2>
@@ -197,18 +202,18 @@
       <section id="trechos-codigo" class="aprendizado-codigo">
         <h2>🧩 Trechos de código úteis</h2>
         <pre id="codigo-langchain" class="codigo-exemplo"><code>
-        # Exemplo simples de uso do LangChain com Python
+        <span># Exemplo simples de uso do LangChain com Python</span>
         from langchain.llms import OpenAI
         llm = OpenAI(model_name="text-davinci-003")
         resposta = llm("Explique o que é DevOps.")
         print(resposta)
         </code></pre>
         <pre id="codigo-http-server" class="codigo-exemplo"><code>
-        # Comando básico para iniciar um servidor simples em Python
+        <span># Comando básico para iniciar um servidor simples em Python</span>
         python3 -m http.server 8000
         </code></pre>
         <pre id="codigo-ec2-cli" class="codigo-exemplo"><code>
-        # Criando uma instância EC2 via AWS CLI
+        <span># Criando uma instância EC2 via AWS CLI</span>
           aws ec2 run-instances \
             --image-id ami-1234567890abcdef0 \
             --count 1 \
@@ -221,6 +226,7 @@
     </section>
     <div class="fundo-cor4">
       <section id="progresso">
+        <h2>Habilidades Técnicas</h2>
         <label class="habilidade">
           HTML5
           <div class="barra-progresso">
@@ -248,7 +254,6 @@
       </section>
     </div>
   </main>
-
   <footer class="rodape">
     <p>&copy; 2025 Projeto Capacita C-Jovem</p>
   </footer>
