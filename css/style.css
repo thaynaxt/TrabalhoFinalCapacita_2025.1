@@ -16,8 +16,10 @@
 
 body {
   font-family: "Poppins";
-  color: var(--cor1);
-  padding-top: 80px
+}
+
+main {
+  margin-top: 75px;
 }
 
 .menu-fixo {
