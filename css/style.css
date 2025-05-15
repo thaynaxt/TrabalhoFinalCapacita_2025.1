@@ -591,6 +591,23 @@ li {
   background-color: #f18a8a;
 }
 
+.menu{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.menu:hover {
+  color: #ffd700; /* ou outra cor de destaque */
+  border-bottom: 2px solid #ffd700;
+}
+
 .fundo-cor4 {
   background-image: linear-gradient(var(--cor2), var(--cor1));
   padding-bottom: 80px;
